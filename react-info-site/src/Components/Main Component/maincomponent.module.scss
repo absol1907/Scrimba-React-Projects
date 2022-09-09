@@ -1,0 +1,31 @@
+.maincomp {
+    padding: 57px 27px;
+
+    color: #ffffff;
+
+    background-image: url("src/images/reactgray.png");
+    background-repeat: no-repeat;
+    background-position: right 75%;
+
+    &__title {
+        margin: 0;
+        
+        font-weight: 39px;
+        letter-spacing: -0.05em;
+    }
+
+    &__list {
+        margin-top: 46px;
+        max-width: 400px;
+
+        li {
+            line-height: 19px;
+            padding-block: 10px;
+
+            &::marker {
+                color: #61DAFB;
+                font-size: 1.4em;
+            }
+        }
+    }
+}
